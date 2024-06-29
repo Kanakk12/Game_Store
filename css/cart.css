@@ -1,0 +1,137 @@
+/* Custom CSS for color scheme */
+
+body {
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh;
+ margin: 0;
+ background-image: linear-gradient(to bottom,rgb(48, 5, 48),rgb(56, 16, 56),black,black,black,black,black,black);
+}
+/* main section */
+main {
+ flex: 1;
+}
+/* footer section */
+footer {
+ background-color: black; /* Background color of the footer */
+ color: #fff; /* Text color of the footer */
+ padding: 20px;
+ text-align: center;
+ position: relative;
+ top: 70px;
+ width: 100%;
+}
+/* headings */
+.heading{
+ text-align: center;
+ color: darkblue;
+ background-color: rgb(238, 238, 96);
+ font-family: cursive;
+ border-radius: 3px;
+}
+.text{
+ color: lightblue;
+ font-family: cursive;
+ text-align: center;
+}
+#delete{
+ background-color: yellow;
+ color: darkblue;
+ font-size: 25px;
+ font-weight: bold;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+
+}
+/* quantity box */
+.quantity{
+     display: flex; /* Use flexbox to arrange items in a row */
+     justify-content: center;
+     align-items: center; /* Center items vertically within the container */
+ }
+
+ .input {
+     flex: 1; /* Allow the input field to grow and take up available space */
+     padding: 5px;
+     margin-right: 5px; /* Add some spacing between the input and buttons */
+     align-items: center;
+ }
+
+#increase{
+     background-color: yellow;
+     color: darkblue;
+     font-size: 15px;
+     align-items: center;
+     }
+#decrease{
+         background-color: yellow;
+         color: darkblue;
+         font-size: 15px;
+         align-items: center;
+         }
+
+/* image */
+    img{
+           border-radius: 20px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           margin: auto;
+         }
+
+   #quantity{
+             border: 3px solid darkblue;
+             border-radius: 3px;
+             width: 90px;
+             display: flex;
+             justify-content: center;
+           
+         }
+
+    .price2{
+             color: lightblue;
+         }
+
+.total{
+  font-family: cursive;
+  color:lightblue; /*total amount*/
+  font-weight: bold;
+}
+.item_details{
+   align-items: center;
+}
+hr {
+ margin: 10px 0;
+}
+.product-price,
+ .discount,
+ .total {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 5px;
+ }
+ .checkout-btn {
+     text-align: center;
+     margin-top: 10px;
+ }
+
+ .checkout-btn button {
+     background-color: yellow;
+     color: darkblue;
+     font-family: cursive;
+     padding: 10px 20px;
+     border: none;        /*styling for checkout button*/
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 1.1rem;
+     font-weight: bold;
+ }
+ #cart_img{
+     display: flex;
+     justify-content: center;
+     align-items: center;   /*styling for cart image*/
+     margin: auto;
+ }
+

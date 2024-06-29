@@ -1,0 +1,91 @@
+/* Custom CSS for color scheme */
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(to bottom,rgb(48, 5, 48),rgb(56, 16, 56),black,black,black,black,black,black);
+    font-family: cursive;
+}
+
+/* main section */
+main {
+    flex: 1;
+}
+
+/* styling footer */
+footer {
+    background-color: black; /* Background color of the footer */
+    color: #fff; /* Text color of the footer */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    width: 100%;
+}
+
+  /*assign full width inputs*/
+
+  .inp1[type=email],
+  .inp1[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  /*set a style for the buttons*/
+
+  #log {
+    background-color: rgb(233, 236, 47);
+    color: darkblue;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid darkblue;
+    cursor: pointer;
+    width: 50%;
+  }
+
+  /* set a hover effect for the button*/
+
+  #log:hover {
+       background-color: lawngreen;
+  }
+
+  /*set padding to the container*/
+
+  .container {
+    padding: 16px;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: auto;
+  }
+
+  /*set the forgot password text*/
+
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+
+  /* styling heading */
+  #heading {
+    font-size: 40px;
+    font-weight: 00;
+    color: lightblue;
+    text-align: center;
+  }
+
+  /*set styles for span on small screens*/
+
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+  }

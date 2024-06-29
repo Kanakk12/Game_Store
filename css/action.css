@@ -1,0 +1,74 @@
+   /* Custom CSS for color scheme */
+
+    body {
+        display: flex;
+        flex-direction: column; 
+        min-height: 100vh;
+        margin: 0;
+    }
+    
+    /* main section */
+    main {
+        flex: 1;
+    }
+     /* footer section */
+    footer {
+        background-color: #333; /* Background color of the footer */
+        color: #fff; /* Text color of the footer */
+        padding: 20px;
+        text-align: center;
+        position: relative;
+        top: 70px;
+    }
+    #ft{
+        font-family: cursive;
+        font-variant: small-caps;
+        color: white;
+    }
+    .title{
+        font-family: cursive; /*title*/
+        color:darkred;
+        font-weight: bold;
+    }
+    .price{
+        font-size: 17px;
+        background-color: violet;
+        color: black;
+        border: 2px solid black;
+        font-family: cursive;
+        text-align: center;
+    }
+    .text{
+        font-family: cursive;
+        color: black;
+    }
+    .hey{
+        background-image: linear-gradient(to bottom right ,rgb(50, 82, 187),rgb(103, 184, 211));
+    }
+    
+      /* Style for the "Add to Cart" button */
+      .add-to-cart-button {
+        background-color: yellow;
+        color: darkblue;
+        border: 2px solid black;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: cursive;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Style for the shopping cart icon */
+    .fa-shopping-cart {
+        margin-right: 5px;
+        color:darkblue;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #action{
+       text-align: center;
+       color: lightblue;
+       font-family: cursive;
+
+    }
